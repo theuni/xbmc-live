@@ -115,13 +115,6 @@ if ! which lb > /dev/null ; then
 		else
 			tar xf live-build.tar  > /dev/null 2>&1
 		fi
-
-		# Fix for missing directory for Ubuntu's d-i, to be removed when fixed upstream!
-		cd live-build/data/debian-cd
-		if [ ! -h $VARIANTNAME ]; then
-			ln -s maverick $VARIANTNAME
-		fi
-		cd $WORKPATH/Tools
 	fi
 
 	LB_HOMEDIR=$WORKPATH/Tools/live-build
