@@ -1,6 +1,6 @@
-[submodule "SDK/Tools/live-build"]
-	path = SDK/Tools/live-build
+[submodule "SDK/buildDEBs/live-build"]
+	path = SDK/buildDEBs/live-build
 	url = git://live.debian.net/git/live-build.git
-[submodule "SDK/Tools/live-boot"]
-	path = SDK/Tools/live-boot
+[submodule "SDK/buildDEBs/live-boot"]
+	path = SDK/buildDEBs/live-boot
 	url = git://live.debian.net/git/live-boot.git
