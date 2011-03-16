@@ -1,0 +1,3 @@
+[submodule "SDK/Tools/live-build"]
+	path = SDK/Tools/live-build
+	url = git://live.debian.net/git/live-build.git
